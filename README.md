@@ -45,3 +45,8 @@ mvn spring-boot:run
 ✅ Geração automática de documentação compatível com AsyncAPI
 
 ✅ Integração com SNS/SQS para comunicação assíncrona
+
+
+<h2>Contribuição</h2>
+Em caso de dúvidas, sinta-se a vontade a entrar em contato, me mande mensagem através do meu linkedin:
+https://www.linkedin.com/in/kievmaia/
