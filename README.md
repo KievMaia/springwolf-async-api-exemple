@@ -1,6 +1,46 @@
-## Usage
+# 🚀 Springwolf - Async API Documentation
 
-### Run with docker compose (recommended)
-1. Go to `cd docker` in the project root directory.
-2. Run `$ docker-compose up`.
-3. Visit `localhost:8080/springwolf/asyncapi-ui.html` or try the API: `$ curl localhost:8080/springwolf/docs`.
+A documentação de APIs é essencial para qualquer projeto, mas pode ser trabalhosa quando feita manualmente. No ecossistema Spring Boot, temos ótimas soluções para gerar documentação automaticamente para APIs REST, como **Springfox** e **springdoc-openapi**.
+
+Porém, até agora, não havia uma solução equivalente para **APIs assíncronas** (AMQP, JMS, Kafka, SNS, SQS, WebSockets, etc.). O **Springwolf** resolve esse problema, gerando automaticamente a documentação de APIs assíncronas construídas com Spring Boot.
+
+O **Springwolf** é **compatível com AsyncAPI**, trazendo para arquiteturas **event-driven** a mesma padronização e praticidade que **Swagger/OpenAPI** trouxe para APIs REST.
+
+---
+
+## 🛠️ Como Executar
+
+### 📌 Pré-requisitos
+- **Docker** e **Docker Compose** instalados
+- **Maven** instalado
+
+### 🔥 Rodando o Projeto
+1️⃣ Clone este repositório:
+```
+git clone https://github.com/KievMaia/springwolf-async-api-exemple.git
+````
+2️⃣ Navegue até a pasta docker:
+```
+cd docker
+```
+3️⃣ Inicie os serviços necessários com Docker Compose:
+```
+docker-compose up -d
+```
+4️⃣ Volte para a raiz do projeto e inicie a aplicação com Maven:
+```
+cd ..
+mvn spring-boot:run
+```
+5️⃣ Acesse a documentação gerada automaticamente:
+
+### 📜 UI Interativa: http://localhost:8080/springwolf/asyncapi-ui.html
+
+### 📄 JSON da API: http://localhost:8080/springwolf/docs
+
+### 🎯 O que este projeto demonstra?
+✅ Como documentar eventos assíncronos no Spring Boot usando Springwolf
+
+✅ Geração automática de documentação compatível com AsyncAPI
+
+✅ Integração com SNS/SQS para comunicação assíncrona
