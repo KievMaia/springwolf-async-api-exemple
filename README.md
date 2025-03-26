@@ -35,6 +35,7 @@ mvn spring-boot:run
 5️⃣ Acesse a documentação gerada automaticamente:
 
 ### 📜 UI Interativa: http://localhost:8080/springwolf/asyncapi-ui.html
+<img src="https://github.com/user-attachments/assets/8ffb8ef5-fd04-46ff-8392-ceaff0809734" width="500">
 
 ### 📄 JSON da API: http://localhost:8080/springwolf/docs
 
